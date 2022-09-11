@@ -9,6 +9,6 @@ sudo apt -y isntall wget
 sudo apt -y install net-tools 
 sudo apt -y install htop 
 sudo apt -y install nmap 
-useradd root
-passwd root vagrant
+useradd leandro
+passwd leandro vagrant123
 
