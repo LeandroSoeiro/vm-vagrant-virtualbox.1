@@ -1,0 +1,8 @@
+---
+- name: devops
+  box: hashicorp/bionic64
+  hostname: devops
+  ipaddress: 192.168.0.55
+  memory: 2048
+  cpus: 2
+  provision: script/script.sh
